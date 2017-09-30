@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         didSet {
             if ( age > 10 && age < 100){
                 ageLbl.text = "age: \(age)"
-            }
+                            }
         }
     }
     @IBOutlet weak var ageLbl: UILabel!
